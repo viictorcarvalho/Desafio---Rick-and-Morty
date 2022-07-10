@@ -1,8 +1,9 @@
-package br.com.zup.desafio_rickandmorty
+package br.com.zup.desafio_rickandmorty.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.zup.desafio_rickandmorty.R
 import java.util.*
 
 class SplashActivity : AppCompatActivity() {
@@ -21,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun jump() {
         timer.cancel()
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, HomeActivity::class.java))
         this.finish()
     }
 }
