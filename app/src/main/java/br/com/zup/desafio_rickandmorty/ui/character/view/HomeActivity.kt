@@ -1,4 +1,4 @@
-package br.com.zup.desafio_rickandmorty.ui
+package br.com.zup.desafio_rickandmorty.ui.character.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

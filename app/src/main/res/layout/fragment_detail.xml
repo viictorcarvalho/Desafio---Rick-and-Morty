@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cor_primaria"
-    tools:context=".DetailFragment">
+    tools:context=".ui.detail.DetailFragment">
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
 
     <ImageView
         android:id="@+id/ivCharacterImage"
@@ -30,8 +34,7 @@
         android:text="@string/nome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivCharacterImage"
-        tools:ignore="SpUsage" />
+        app:layout_constraintTop_toBottomOf="@id/ivCharacterImage" />
 
     <TextView
         android:id="@+id/tvCharacterStatus"
@@ -44,8 +47,7 @@
         android:textSize="@dimen/size_15"
         app:layout_constraintEnd_toEndOf="@id/tvCharacterName"
         app:layout_constraintStart_toStartOf="@id/tvCharacterName"
-        app:layout_constraintTop_toBottomOf="@id/tvCharacterName"
-        tools:ignore="SpUsage" />
+        app:layout_constraintTop_toBottomOf="@id/tvCharacterName" />
 
     <TextView
         android:id="@+id/tvCharacterSpecies"
@@ -74,4 +76,4 @@
         app:layout_constraintStart_toStartOf="@id/tvCharacterName"
         app:layout_constraintTop_toBottomOf="@id/tvCharacterSpecies" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

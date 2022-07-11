@@ -7,4 +7,5 @@
     <dimen name="size_100">100dp</dimen>
     <dimen name="size_250">250dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="size_430">430dp</dimen>
 </resources>

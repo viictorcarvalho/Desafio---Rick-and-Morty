@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CharacterFragment"
+    tools:context=".ui.character.view.CharacterFragment"
     android:name="br.com.zup.desafio_rickandmorty.ItemFragment">
 
     <androidx.recyclerview.widget.RecyclerView

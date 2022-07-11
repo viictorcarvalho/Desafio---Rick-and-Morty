@@ -1,7 +1,10 @@
 package br.com.zup.desafio_rickandmorty.data.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class CharacterResult(
     @SerializedName("gender")
     var gender: String = "",
@@ -16,3 +19,4 @@ data class CharacterResult(
     @SerializedName("status")
     var status: String = ""
     )
+    : Parcelable

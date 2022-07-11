@@ -1,4 +1,4 @@
-package br.com.zup.desafio_rickandmorty
+package br.com.zup.desafio_rickandmorty.ui.character.view
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
@@ -8,7 +8,8 @@ import br.com.zup.desafio_rickandmorty.databinding.FragmentItemBinding
 import com.squareup.picasso.Picasso
 
 class RecyclerViewAdapter(
-    private var listCharacter: MutableList<CharacterResult>
+    private var listCharacter: MutableList<CharacterResult>,
+    private val click : (character : CharacterResult) -> Unit
 ) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -26,6 +27,10 @@ class RecyclerViewAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val character = listCharacter[position]
         holder.displayDataList(character)
+
+        holder.binding.cvCharacter.setOnClickListener {
+            click(character)
+        }
     }
 
     override fun getItemCount(): Int = listCharacter.size

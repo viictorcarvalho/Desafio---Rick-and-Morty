@@ -1,9 +1,10 @@
-package br.com.zup.desafio_rickandmorty.ui
+package br.com.zup.desafio_rickandmorty.ui.splash
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import br.com.zup.desafio_rickandmorty.R
+import br.com.zup.desafio_rickandmorty.ui.character.view.HomeActivity
 import java.util.*
 
 class SplashActivity : AppCompatActivity() {

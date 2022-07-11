@@ -1,3 +1,3 @@
 package br.com.zup.desafio_rickandmorty
 
-class DetailFragment
+const val KEY = "CHARACTER_KEY"
