@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +7,9 @@
     android:background="@color/cor_primaria"
     tools:context=".ui.detail.DetailFragment">
 
-<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content">-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_0">
 
     <ImageView
         android:id="@+id/ivCharacterImage"
@@ -77,3 +77,5 @@
         app:layout_constraintTop_toBottomOf="@id/tvCharacterSpecies" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

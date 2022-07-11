@@ -3,12 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/activity_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/character_item.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/fragment_character.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/fragment_detail.xml" value="0.14204545454545456" />
+        <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/fragment_item.xml" value="0.5" />
         <entry key="..\:/Users/Victor.Silva/Desktop/Android Studio/DesafioRickandMorty/app/src/main/res/layout/fragment_item_list.xml" value="0.17552083333333332" />
       </map>
