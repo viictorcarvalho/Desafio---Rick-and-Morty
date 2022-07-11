@@ -14,6 +14,5 @@ data class CharacterResult(
     @SerializedName("species")
     val species: String,
     @SerializedName("status")
-    val status: String,
-
+    val status: String
     )
