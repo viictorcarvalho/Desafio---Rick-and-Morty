@@ -3,5 +3,12 @@
     <string name="descricao_imagem">Imagem de Rick e Morty saindo de um portal verde fluorescente aparentemente em outro planeta</string>
 
     <string name="character_image">Imagem do personagem</string>
+    <string name="character_name">Nome do personagem</string>
+    <string name="character_status">Status: </string>
+    <string name="character_gender">Gênero: </string>
+    <string name="character_species">Espécie: </string>
+    <string name="nome">Nome: </string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

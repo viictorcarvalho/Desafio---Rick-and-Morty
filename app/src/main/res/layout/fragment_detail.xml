@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cor_primaria"
     tools:context=".DetailFragment">
 
     <ImageView
@@ -15,6 +16,62 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/rick_morty" />
+        android:src="@drawable/rick_morty"/>
+
+    <TextView
+        android:id="@+id/tvCharacterName"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="@dimen/size_15"
+        android:layout_marginTop="@dimen/size_15"
+        android:textSize="@dimen/size_15"
+        android:text="@string/nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivCharacterImage"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/tvCharacterStatus"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/size_15"
+        android:text="@string/character_status"
+        android:textSize="@dimen/size_15"
+        app:layout_constraintEnd_toEndOf="@id/tvCharacterName"
+        app:layout_constraintStart_toStartOf="@id/tvCharacterName"
+        app:layout_constraintTop_toBottomOf="@id/tvCharacterName"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/tvCharacterSpecies"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/size_15"
+        android:textSize="@dimen/size_15"
+        android:text="@string/character_species"
+        app:layout_constraintEnd_toEndOf="@id/tvCharacterName"
+        app:layout_constraintStart_toStartOf="@id/tvCharacterName"
+        app:layout_constraintTop_toBottomOf="@id/tvCharacterStatus" />
+
+
+    <TextView
+        android:id="@+id/tvCharacterGender"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/size_15"
+        android:textSize="@dimen/size_15"
+        android:text="@string/character_gender"
+        app:layout_constraintEnd_toEndOf="@id/tvCharacterName"
+        app:layout_constraintStart_toStartOf="@id/tvCharacterName"
+        app:layout_constraintTop_toBottomOf="@id/tvCharacterSpecies" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

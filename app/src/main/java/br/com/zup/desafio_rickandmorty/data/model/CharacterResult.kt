@@ -4,15 +4,15 @@ import com.google.gson.annotations.SerializedName
 
 data class CharacterResult(
     @SerializedName("gender")
-    val gender: String,
+    var gender: String = "",
     @SerializedName("id")
-    val id: Int,
+    var id: Int = 0,
     @SerializedName("image")
-    val image: String,
+    var image: String = "",
     @SerializedName("name")
-    val name: String,
+    var name: String = "",
     @SerializedName("species")
-    val species: String,
+    var species: String = "",
     @SerializedName("status")
-    val status: String
+    var status: String = ""
     )
