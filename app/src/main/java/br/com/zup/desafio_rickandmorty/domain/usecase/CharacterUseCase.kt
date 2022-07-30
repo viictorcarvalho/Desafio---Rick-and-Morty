@@ -11,10 +11,11 @@ class CharacterUseCase(application: Application) {
     suspend fun getAllCharacters(): ViewState<List<CharacterResult>> {
         return try {
             val response = charactersRepository.getAllCharacterNetwork()
+            charactersRepository.insertAllCharactersDB(response.results)
             ViewState.Success(response.results)
 
-        }catch (e: Exception){
-            ViewState.Error(Exception("Erro"))
+        } catch (e: Exception) {
+            ViewState.Success(charactersRepository.getAllCharactersDB())
         }
     }
 }

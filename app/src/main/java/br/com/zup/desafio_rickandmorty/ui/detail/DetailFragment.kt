@@ -11,7 +11,6 @@ import br.com.zup.desafio_rickandmorty.databinding.FragmentDetailBinding
 import br.com.zup.desafio_rickandmorty.ui.character.view.HomeActivity
 import com.squareup.picasso.Picasso
 
-
 class DetailFragment : Fragment() {
     private lateinit var binding: FragmentDetailBinding
 

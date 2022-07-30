@@ -40,6 +40,8 @@ class CharacterFragment : Fragment() {
 
         showRecycleView()
         (activity as HomeActivity).supportActionBar?.setDisplayHomeAsUpEnabled(false)
+        (activity as HomeActivity).supportActionBar?.title = "Rick and Morty"
+
     }
 
     fun initObserver() {
